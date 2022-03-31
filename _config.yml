@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: mov eax, 4 # the main title
 
-tagline: this is about defragmenting blackgoat's residual memories   # it will display as the sub-title
+tagline: writing about defragmenting residual memories # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   probably the okayest person in my single office room.
