@@ -23,10 +23,10 @@ timezone: Asia/Seoul
 
 title: mov eax, 4 # the main title
 
-tagline: probably the okayest person in my single office room # it will display as the sub-title
+tagline: writings about defragmenting my residual memories.
 
 description: >-                        # used by seo meta and the atom feed
-  Leon Kim's personal blog about defragmenting residual memories.
+  Leon Kim's personal blog. High chance it does not worth the visit.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: https://leonkim.net
