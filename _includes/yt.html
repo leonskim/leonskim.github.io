@@ -1,0 +1,23 @@
+<style>
+    .yt-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        margin-top: 24px;
+        margin-bottom: 28px;
+        height: 0;
+    }
+    .yt-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div class="yt-container">
+    <iframe src="https://www.youtube.com/embed/{{ include.id }}"
+        class="yt-video"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</div>
