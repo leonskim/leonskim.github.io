@@ -1,6 +1,7 @@
 ---
 layout: page
 title: psychedelic
+icon: fas fa-paint-brush
 order: 4
 ---
 
