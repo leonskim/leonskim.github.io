@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Deadlift 240kg, PR
-date: 2022-04-04 17:49 +0900
-categories: 운동
-tags: deadlift powerlifting
+date: 2022-04-04 20:49 +0900
+categories: [운동]
+tags: [deadlift, powerlifting]
 ---
 
 첫 포스팅 입니다. ~~심장 터지게 박력있는 것~~ 좋아하는 것에 대해 포스팅하는 것이 새로운 시작을 가볍게 할 수 있을 것 같아서 이것저것 생각해보다가, 지난 달 3월에 개인 기록을 경신했던 데드리프트 자세 영상을 박제하는 것과 함께, 자세 영상 촬영에 대한 생각을 끄적여 보기로 결정했습니다. 블로그 레이아웃도 테스트 할 겸해서 겸사겸사.
