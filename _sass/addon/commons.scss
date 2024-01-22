@@ -776,6 +776,7 @@ $btn-mb: 0.5rem;
       width: 100%;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
+      text-transform: lowercase;
 
       a.nav-link {
         @include pt-pb(0.6rem);
