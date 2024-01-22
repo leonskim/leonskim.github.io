@@ -3,19 +3,12 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
-baseurl: ''
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale:
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -25,10 +18,11 @@ title: mov eax, 4 # the main title
 
 tagline: writings about defragmenting my residual memories.
 
-description: >-                        # used by seo meta and the atom feed
+description: >- # used by seo meta and the atom feed
   Leon Kim's personal blog. High chance it does not worth the visit.
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+# fill in the protocol & hostname for your site.
+# e.g., 'https://username.github.io'
 url: https://leonkim.net
 
 github:
@@ -56,11 +50,7 @@ google_site_verification: f34265273ccaa514 # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-0VBMWT2X6Q                # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+  id: G-0VBMWT2X6Q # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
@@ -84,6 +74,10 @@ img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://res.cloudinary.com/leonkim/image/upload/v1649027182/personal/avatar_lsj8ec.jpg
+
+# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+# It can be overridden by a customized `page.image` in front matter.
+social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -115,7 +109,13 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
 
-paginate: 8
+pwa:
+  enabled: true # the option for PWA feature
+
+paginate: 10
+
+# The base URL of your site
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -178,13 +178,13 @@ compress_html:
     envs: [development]
 
 exclude:
-  - '*.gem'
-  - '*.gemspec'
+  - "*.gem"
+  - "*.gemspec"
+  - docs
   - tools
   - README.md
   - LICENSE
-  - gulpfile.js
-  - node_modules
+  - rollup.config.js
   - package*.json
 
 jekyll-archives:
