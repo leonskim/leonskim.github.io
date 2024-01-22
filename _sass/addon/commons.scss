@@ -403,6 +403,10 @@ main {
   margin-top: 2rem;
   overflow-wrap: break-word;
 
+  p, ol, ul {
+    font-size: 1.15rem;
+  }
+
   a {
     &.popup {
       @extend %no-cursor;
