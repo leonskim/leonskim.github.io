@@ -77,7 +77,7 @@ avatar: https://res.cloudinary.com/leonkim/image/upload/v1649027182/personal/ava
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: https://res.cloudinary.com/leonkim/image/upload/v1649027182/personal/avatar_lsj8ec.jpg # string, local or CORS resources
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -112,7 +112,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
-paginate: 10
+paginate: 7
 
 # The base URL of your site
 baseurl: ""
