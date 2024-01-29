@@ -37,7 +37,7 @@ tags:
 ## **컴퓨터를 켜면 하는 일**
 오전 3-4시쯤, 일찍 일어나서 일을 시작하는 편이다. 컴퓨터를 켜고 Slack 에 접속해서 "나 출근했어유" 메시지를 남기고 커피/홍차/루이보스등을 우리고, 야옹이들 토닥여주는 등 모닝 루틴은 일정한 편이고.
 
-![](https://res.cloudinary.com/leonkim/image/upload/v1650238243/blog/2022-04-18-rules-of-the-game/Screen_Shot_2022-04-18_at_12.21.52_AM_vkkwnj.png){: w="70%"}
+![](https://res.cloudinary.com/leonkim/image/upload/v1650238243/blog/2022-04-18-rules-of-the-game/Screen_Shot_2022-04-18_at_12.21.52_AM_vkkwnj.png)
 _리스트를 만든지 얼마되지 않았다고 생각했는데 거의 반년이나 흘렀다._
 
 이런 모닝 루틴에 "매일 한 번씩 리스트 보기"를 넣었다. 눈 뜨자마자 읽으면 하루를 시작하는데 도움이 되리라 생각했다. 실제로 처음 적었던 작년 11월 이후로 지금까지 매일 읽으면서 일과를 시작하고 있다.

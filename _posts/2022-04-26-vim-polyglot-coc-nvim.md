@@ -56,9 +56,9 @@ Plugin 'sheerun/vim-polyglot'
 _이렇게 밑줄 뿐만이 아닌, 조금 더 눈에 띄는 경고와 친절한 설명이 보고 싶었다._
 
 \
-제대로 된 설정을 하지 않았기에 YCM 과 ALE 두 플러그인을 함께 쓰는 것에 좋은 인상을 받지 못했던 것 같다. 결정적인 원인은 두 가지 였는데, 타입의 참조문서를 원할때 바로 띄워서 보고 싶었고, 경고/에러등을 Command line 이 아닌 곳에서 한 줄 이상으로 보고 싶었다. 그것들이 가장 불편했다.
+제대로 된 설정을 하지 않았기에 YCM 과 ALE 두 플러그인을 함께 쓰는 것에 좋은 인상을 받지 못했던 것 같다. 결정적인 원인은 두 가지 였는데, 타입의 참조문서를 원할때 바로 띄워서 보고 싶었고, 경고/에러등을 command line 이 아닌 곳에서 한 줄 이상으로 보고 싶었다. 그것들이 가장 불편했다.
 
-그 이후 이것저것 사용을 시도해봤고, 정착하게 된 것이 [coc.nvim](https://github.com/neoclide/coc.nvim). 앞서 언급한 두 플러그인의 기능을 통합적으로 사용할 수 있는 것이 가장 매력적이었다. 관련 `.vimrc`는 편의에 따라 이렇게 설정했는데, 커서 위에서 `Shift + T`를 입력해서 원할때만 해당 관련 문서를 볼 수 있도록 해놓은, Hover documentation 이라고 이름 붙은 기능을 사용하고 있다.
+그 이후 이것저것 사용을 시도해봤고, 정착하게 된 것이 [coc.nvim](https://github.com/neoclide/coc.nvim). 앞서 언급한 두 플러그인의 기능을 통합적으로 사용할 수 있는 것이 가장 매력적이었다. 관련 `.vimrc`는 편의에 따라 이렇게 설정했는데, 커서 위에서 `Shift + T`를 입력해서 원할때만 해당 관련 문서를 볼 수 있도록 해놓은, hover documentation 이라고 이름 붙은 기능을 사용하고 있다.
 
 ```vim
 let g:coc_global_extensions = ['coc-tsserver', 'coc-json', 'coc-rust-analyzer', 'coc-graphql', 'coc-prettier']
