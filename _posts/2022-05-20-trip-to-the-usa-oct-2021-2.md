@@ -3,7 +3,6 @@ layout: post
 title: Trip to the USA, OCT 2021 - 2
 date: 2022-05-20 20:02 +0900
 category:
-- 일상
 - 여행
 tags:
 - 여행

@@ -3,7 +3,6 @@ layout: post
 title: Bluesky Social
 date: 2024-02-04 15:06 +0900
 category:
-- 일상
 - 생각
 tags:
 - Bluesky

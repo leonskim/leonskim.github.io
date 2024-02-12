@@ -3,7 +3,6 @@ layout: post
 title: Rules of the game
 date: 2022-04-18 07:30 +0900
 categories:
-- 일상
 - 생각
 tags:
 - 자기관리

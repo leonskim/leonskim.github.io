@@ -3,7 +3,6 @@ layout: post
 title: Time Tracking
 date: 2022-09-11 22:24 +0900
 categories:
-- 일상
 - 생각
 tags:
 - time-tracking
