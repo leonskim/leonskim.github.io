@@ -8,10 +8,10 @@
   - Interweb or something.
 
 ### Who is it about?
-  - Probably okayest person in my single office room.
+  - Probably the okayest person in my single office room.
 
 ### Why did it happen?
-  - To get over the memory loss, probably due to alcohol abuse. Good times though.
+  - To get over the memory loss, possibly due to alcohol abuse. Good times though.
 
 ### How did it happen?
   - All of a sudden. Beautifully.
