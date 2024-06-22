@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: Deadlift 240kg, PR
 date: 2022-04-09 22:51 +0900
