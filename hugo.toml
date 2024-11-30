@@ -1,3 +1,115 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://leonkim.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Leon Kim'
+theme = 'hugo-split-theme'
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
+disableHugoGeneratorInject = true
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Copyright
+copyright = "&copy;2024 Leon Kim"
+
+[services]
+  [services.googleAnalytics]
+    # Enter your tracking code to enable Google Analytics
+    ID = "G-0VBMWT2X6Q"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Leon Kim"
+  description = "A software developer striving to create and live in harmony."
+  shareImage = "images/bw.jpg"
+  twitterHandle = "leonskim"
+
+  # Whether you purchased the license from the author.
+  licensed = false
+
+  # Favicon
+  favicon = "images/favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/bw.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "GitHub"
+        url = "https://github.com/leonskim"
+        new_tab = true
+
+      [[params.links.list1.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/leon-seong-hoon-kim-9179b48a/"
+        new_tab = true
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:minusnine@gmail.com"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "X"
+        url = "https://x.com/leonskim"
+        new_tab = true
+
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/leon.s.kim/"
+        new_tab = true
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Others"
+
+      [[params.links.list3.link]]
+        text = "Infinite Red"
+        url = "https://infinite.red"
+        new_tab = true
+
+      [[params.links.list3.link]]
+        text = "Psychedelic (Personal design archive)"
+        url = "https://psychedelic.leonkim.net/"
+        new_tab = true
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
+
+[server]
+[[server.headers]]
+    for = '/**'
+    [server.headers.values]
+      Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://dummyimage.com"
+      Referrer-Policy = 'strict-origin-when-cross-origin'
+      X-Content-Type-Options = 'nosniff'
+      X-Frame-Options = 'DENY'
+      X-XSS-Protection = '1; mode=block'
