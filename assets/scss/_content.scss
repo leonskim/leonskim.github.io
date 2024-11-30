@@ -1,0 +1,334 @@
+//-------------------------------------------------------------------------------
+// Content
+//-------------------------------------------------------------------------------
+
+html {
+  scrollbar-gutter: stable;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+}
+
+.body {
+  display: block;
+  max-height: 100vh;
+  background-color: $color-background;
+  font-family: Inter, sans-serif;
+  animation: $animation-name $animation-duration;
+}
+
+.leftcontent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  max-height: 100vh;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.name {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: $color-name;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.tagline {
+  margin-bottom: 40px;
+  color: $color-tagline;
+  font-size: 58px;
+  line-height: 100%;
+}
+
+.bio p {
+  margin-bottom: 40px;
+  font-family: Lora, sans-serif;
+  color: $color-text;
+  font-size: 21px;
+  line-height: 140%;
+}
+
+.bio a {
+  border-bottom: 1px solid $color-text;
+  text-decoration: none;
+}
+
+.bio a:hover {
+  color: $color-link-hover;
+  border-bottom: 1px solid $color-link-hover;
+}
+
+.bio h1, .bio h2, .bio h3, .bio h4, .bio h5, .bio h6 {
+  font-family: Lora, sans-serif;
+  color: $color-text;
+}
+
+.bio ul, .bio ol, .bio pre {
+  color: $color-text;
+}
+
+.text-block {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: $color-credit;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.list {
+  font-family: Lora, sans-serif;
+  color: $color-text;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.list a:hover {
+  color: $color-link-hover;
+}
+
+.credit {
+  color: $color-credit;
+  font-size: 13px;
+}
+
+.rightcontent {
+  overflow: auto;
+  padding: 120px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.content {
+  overflow: auto;
+}
+
+.links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  margin-bottom: 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.credit-links {
+  color: $color-credit;
+}
+
+.credit-links:hover {
+  color: $color-link-hover;
+}
+
+.image {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: block;
+  min-height: 100vh;
+  min-width: 100%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-image: $image-background;
+  background-position: $image-position;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: $bp-smallish) {
+  .leftcontent {
+    display: block;
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .rightcontent {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .column {
+    margin-bottom: 20px;
+  }
+
+  .column:last-child {
+    margin-bottom: 0px;
+  }
+
+  .image {
+    position: static;
+    height: 420px;
+    max-height: 50vh;
+    min-height: auto;
+    background-position: 50% calc(50% - 10vh);
+  }
+}
+
+@media screen and (max-width: $bp-tablet) {
+  .name {
+    margin-bottom: 20px;
+  }
+
+  .rightcontent {
+    padding: 60px;
+  }
+
+  .image {
+    background-position: 50% calc(50% - 5vh);
+  }
+}
+
+@media screen and (max-width: $bp-mobile) {
+  .bold-text {
+    font-size: 42px;
+    line-height: 42px;
+  }
+
+  .bio p {
+    font-size: 16px;
+  }
+
+  .credit {
+    font-size: 12px;
+  }
+
+  .rightcontent {
+    padding: 30px;
+  }
+
+  .image {
+    height: 240px;
+    max-height: 30vh;
+    background-position: 50% calc(50% - 5vh);
+  }
+}
+
+//-------------------------------------------------------------------------------
+// Videos - shout out to my bud https://twitter.com/manuelmoreale for the Ninja skills
+//-------------------------------------------------------------------------------
+
+// YouTube
+
+.split-video {
+  overflow:hidden;
+  position:relative;
+  line-height:0;
+}
+
+.video-wrap{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.video-container {
+  position:relative;
+  overflow:hidden;
+  height: 56.25vw;
+  width: 100vw;
+  @media (max-aspect-ratio:16/9) {
+    height: 100vh;
+    width: 177.7777777778vh; // this is for the ration 16:9
+  }
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Self-Hosted
+
+video.video {
+  object-fit      : cover;
+  object-position : 50% 50%;
+  width           : 100%;
+  height          : 100%;
+}
+
+@media (min-width: $bp-smallish) {
+  video.video {
+    height: 100vh;
+  }
+}

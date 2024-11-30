@@ -2271,13 +2271,15 @@ a {
     height: 420px;
     max-height: 50vh;
     min-height: auto;
-    background-position: 50% 0%; } }
+    background-position: 50% calc(50% - 10vh); } }
 
 @media screen and (max-width: 767px) {
   .name {
     margin-bottom: 20px; }
   .rightcontent {
-    padding: 60px; } }
+    padding: 60px; }
+  .image {
+    background-position: 50% calc(50% - 5vh); } }
 
 @media screen and (max-width: 479px) {
   .bold-text {
@@ -2291,7 +2293,8 @@ a {
     padding: 30px; }
   .image {
     height: 240px;
-    max-height: 30vh; } }
+    max-height: 30vh;
+    background-position: 50% calc(50% - 5vh); } }
 
 .split-video {
   overflow: hidden;
