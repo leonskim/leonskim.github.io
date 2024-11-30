@@ -3,7 +3,7 @@
 	"file": "split.css",
 	"sourceRoot": "/Volumes/pain/blog/leonkim.net",
 	"sources": [
-		"themes/hugo-split-theme/assets/scss/split.scss",
+		"assets/scss/split.scss",
 		"themes/hugo-split-theme/assets/scss/_normalize.scss",
 		"themes/hugo-split-theme/assets/scss/_webflow.scss",
 		"themes/hugo-split-theme/assets/scss/_animation.scss",

@@ -1,0 +1,35 @@
+//-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Colors
+$color-background   : #2A003E;
+$color-name         : #47BEC7;
+$color-tagline      : #DDDDDD;
+$color-text         : #848D96;
+$color-credit       : #485462;
+$color-link         : #848D96;
+$color-link-hover   : #CA486d;
+
+// Breakpoints
+$bp-smallish        : 991px;
+$bp-tablet          : 767px;
+$bp-mobile          : 479px;
+
+// Image
+$image-background   : {{ if .Site.Params.visual.image.enable }}url('../{{ .Site.Params.visual.image.file | default "images/background.jpg" }}'){{ else }}none{{ end }};
+$image-position     : {{ if .Site.Params.visual.image.enable }}{{ .Site.Params.visual.image.position | default "50% 50%" }}{{ else }}0% 0%{{ end }};
+
+// Animation
+$animation-name     : fadein;
+$animation-duration : 2s;
+
+//-------------------------------------------------------------------------------
+// Imports
+//-------------------------------------------------------------------------------
+
+@import "normalize";
+@import "webflow";
+@import "animation";
+@import "fonts";
+@import "content";
