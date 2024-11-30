@@ -2271,7 +2271,7 @@ a {
     height: 420px;
     max-height: 50vh;
     min-height: auto;
-    background-position: 50% calc(50% - 10vh); } }
+    background-position: 50% calc(50% - 5vh); } }
 
 @media screen and (max-width: 767px) {
   .name {
