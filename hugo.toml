@@ -90,7 +90,7 @@ copyright = "&copy;2024 Leon Kim"
       heading = "Others"
 
       [[params.links.list3.link]]
-        text = "Infinite Red"
+        text = "Infinite Red (Where I work)"
         url = "https://infinite.red"
         new_tab = true
 
